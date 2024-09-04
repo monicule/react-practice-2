@@ -20,9 +20,9 @@ function Card () {
 }
 
     return (
-        <div className="card">
+        <div className="card" style={{display: "flex", justifyContent: "center", alignItems: "center", gap: 20}}>
             <span>Patiktukai: {count}</span>
-            <div className="card card-header" style={{display: "flex", justifyContent: "center", alignItems: "center", gap: 30}}>
+            <div className="card card-header" style={{display: "flex", justifyContent: "center", alignItems: "center", gap: 20}}>
                 <BsEmojiSmile />
                 <p style={{marginTop:15}}>Please like my Dog</p>
             </div>
